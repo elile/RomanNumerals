@@ -9,8 +9,12 @@ public class RomanNumeralUnitTests {
 
 	@Test
 	public void testThat1ReturnsI() {
-		assertEquals("I", number.toRoman(1));
-		assertEquals("II", number.toRoman(2));
+		//RomanConversion R = new RomanConversion();
+		
+		
+		for (int i = 5; i < 1000; i++) {
+			assertEquals(RomanConversion.binaryToRoman(i), number.toRoman(i));
+		}
 	}
 	
 
