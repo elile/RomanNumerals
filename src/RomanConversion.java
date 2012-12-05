@@ -15,7 +15,7 @@ public class RomanConversion {
 				roman  += RCODE[i];
 			}
 		}
-		return "";
+		return roman;
 	}  
 
 }
