@@ -9,7 +9,7 @@ public class RomanNumeralUnitTests {
 
 	@Test
 	public void testThat1ReturnsI() {
-		assertEquals("DCLXVI", number.toRoman(666));
+		assertEquals("CC", number.toRoman(200));
 	}
 	
 
