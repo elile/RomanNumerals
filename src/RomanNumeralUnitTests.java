@@ -9,7 +9,7 @@ public class RomanNumeralUnitTests {
 
 	@Test
 	public void testThat1ReturnsI() {
-		assertEquals("I", number.toRoman(1));
+		assertEquals("XL", number.toRoman(41));
 	}
 	
 
