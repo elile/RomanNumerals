@@ -9,7 +9,7 @@ public class RomanConversion {
 			throw new NumberFormatException("Value outside roman numeral range.");
 		}
 		String roman = "";         
-		for (int i = 0; i < RCODE.length; i++) {
+		for (int i = 0; i < RCODE.length-5; i++) {
 			while (binary >= BVAL[i]) {
 				binary -= BVAL[i];
 				roman  += RCODE[i];
