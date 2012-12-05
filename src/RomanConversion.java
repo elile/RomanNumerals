@@ -8,7 +8,7 @@ public class RomanConversion {
 		if (binary <= 0 || binary >= 4000) {
 			throw new NumberFormatException("Value outside roman numeral range.");
 		}
-		String roman = "";         
+		String roman = "asdf";         
 		for (int i = 0; i < RCODE.length; i++) {
 			while (binary >= BVAL[i]) {
 				binary -= BVAL[i];
